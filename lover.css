@@ -22,7 +22,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("D.JPG") no-repeat center center fixed;
+  background: url("https://i.postimg.cc/NftwM23q/D.jpg") no-repeat center center
+    fixed;
   background-size: contain;
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
