@@ -239,7 +239,7 @@ function resetEverything() {
   newVideo.id = "love-video";
   newVideo.src =
     "https://www.dropbox.com/scl/fi/hjjn4w8ixp9uqp94g56ov/K.mp4?rlkey=ixsnd1gx9ed05j0zi1aftyg5z&st=ljdcq4f2&raw=1";
-  newVideo.loop = true;
+  newVideo.controls = true;
   const videoContainer = document.createElement("div");
   videoContainer.classList.add("video-container");
   videoContainer.appendChild(newVideo);
