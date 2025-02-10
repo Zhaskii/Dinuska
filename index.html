@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>❤️ Happy Valentine's Dinuska ❤️</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="lover.css" />
+  </head>
+  <body class="container mx-auto bg-red-400">
+    <div id="bg"></div>
+
+    <div id="content">
+      <div class="pt-[150px]">
+        <h2
+          id="headline"
+          class="font-serif text-red-900 text-6xl flex justify-center"
+        >
+          Hey Love, Will you be my Valentine?
+        </h2>
+        <div class="heart flex justify-center">❤️</div>
+        <div class="flex justify-center pt-[40px]">
+          <img
+            id="ring"
+            src="images/Ring.JPG"
+            alt="Ring Photo"
+            width="500px"
+            class="border"
+          />
+        </div>
+      </div>
+
+      <div class="flex justify-center gap-6 pt-[50px]">
+        <button
+          onclick="showSurprise()"
+          class="px-6 py-3 text-lg font-bold text-white bg-green-500 rounded-lg shadow-lg hover:bg-green-700 transition"
+        >
+          Yes! 💖
+        </button>
+        <button
+          id="no-btn"
+          class="px-6 py-3 text-lg font-bold text-white bg-red-500 rounded-lg shadow-lg hover:bg-red-700 transition"
+          onmouseover="moveButton()"
+          onclick="showLossAlert()"
+        >
+          No 🖕
+        </button>
+      </div>
+
+      <div
+        id="surprise"
+        class="w-[900px] mx-auto hidden text-center mt-8 bg-black bg-opacity-50 p-6 rounded-lg"
+      >
+        <p class="text-4xl text-[yellow] font-medium mb-4">
+          Yay! I Love You! ❤️🌹
+        </p>
+
+        <div class="video-container">
+          <video id="love-video" controls>
+            <source src="K.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <button
+          id="thank-you-button"
+          onclick="sayThankYou()"
+          class="mt-4 px-6 py-3 text-lg font-bold text-white bg-blue-500 rounded-lg shadow-lg hover:bg-blue-700 transition"
+        >
+          Thank You! 🌷
+        </button>
+      </div>
+    </div>
+
+    <audio id="love-music" src="lover.mp3" preload="auto"></audio>
+
+    <script src="lover.js"></script>
+  </body>
+</html>

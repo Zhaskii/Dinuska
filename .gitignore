@@ -1,0 +1,80 @@
+# Ignore system and configuration files
+.CFUserTextEncoding
+.bash_history
+.bash_sessions/
+.config/
+.deno/
+.gitconfig
+.idlerc/
+.ipython/
+.matplotlib/
+.mongodb/
+.node_repl_history
+.npm/
+.profile
+.python_history
+.viminfo
+.vscode/
+.zprofile
+.zsh_history
+.zsh_sessions/
+.zshrc
+
+
+
+# Ignore directories
+Applications/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+nltk_data/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore Node.js and npm files
+node_modules/
+npm-debug.log*
+
+# Ignore Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Ignore Deno files
+.deno/
+deno.lock
+
+# Ignore local environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore build and distribution directories
+build/
+dist/
+out/
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.out
+*.app
